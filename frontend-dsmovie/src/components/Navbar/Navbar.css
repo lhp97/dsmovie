@@ -12,6 +12,10 @@ header {
     color: #fff;
 }
 
+.dsmovie-nav-content h1 {
+    margin: 0;
+}
+
 .dsmovie-contact-container {
     display: flex;
     align-items: center;
