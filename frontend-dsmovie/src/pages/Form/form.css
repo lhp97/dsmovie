@@ -45,14 +45,13 @@
     min-height: 40px;
 }
 
-
-
-
-
 .dsmovie-btn {
-    --color-primary: #4D41C0!important;
+    background-color: var(--color-primary);
     font-size: 14px;
     font-weight: 700;
     height: 40px;
     width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
