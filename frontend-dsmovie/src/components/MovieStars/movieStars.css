@@ -1,0 +1,11 @@
+.dsmovie-stars-containers {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dsmovie-stars-containers svg {
+    width: 22px;
+    height: auto;
+    filter: invert(75%) sepia(89%) saturate(341%) hue-rotate(356deg) brightness(98%) contrast(91%);
+}

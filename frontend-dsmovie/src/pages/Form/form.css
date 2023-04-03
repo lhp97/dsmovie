@@ -4,25 +4,6 @@
     padding: 20px;
 }
 
-.dsmovie-card-image {
-    width: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
-.dsmovie-card-bottom-container {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 10px 20px 10px;
-    border-radius: 0 0 8px 8px;
-}
-
-.dsmovie-card-bottom-container h3 {
-    color: #4A4A4A;
-    text-align: center;
-}
-
 .dsmovie-form {
     width: calc(100% - 20px);
 }
@@ -41,6 +22,37 @@
     justify-content: center;
 }
 
+.dsmovie-movie-card-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-card-bottom-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-bottom-container h3 {
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+
+
+
+
+
 .dsmovie-btn {
     --color-primary: #4D41C0!important;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 180px;
 }
